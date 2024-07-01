@@ -52,11 +52,11 @@ body {
     }
 
 .spacer {
-    padding-top: 30 px;
+    padding-top: 30px;
     margin: auto;
     margin-bottom: 30px;
 
-    width: 100%px;
+    width: 100%;
 
     border-bottom: 1px solid #bdc3c7;
 }
