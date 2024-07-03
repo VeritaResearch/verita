@@ -2,7 +2,6 @@
     width: 100%;
     height: 150px;
     
-
     border-bottom: 1px solid #bdc3c7; 
 }
     .navbar-container {
@@ -45,7 +44,7 @@
         font-family: Arial, sans-serif;
         text-transform: uppercase;
         letter-spacing: 3px;
-        font-size: 33px;
+        font-size: 32px;
         font-weight: 400;
         text-align: center;
         color: #227093;
