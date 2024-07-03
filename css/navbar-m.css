@@ -1,6 +1,7 @@
 .navbar {
     width: 100%;
-    height: 130px;
+    height: 150px;
+    
 
     border-bottom: 1px solid #bdc3c7; 
 }
@@ -13,8 +14,8 @@
     }
 
     .navbar-title {
-        padding-top: 35px;
-        height: 95px;
+        padding-top: 45px;
+        height: 105px;
 
                 
         font-family: Andale Mono,AndaleMono,monospace; 
@@ -38,8 +39,8 @@
         }
 
     .navbar-link {
-        padding-top: 52px;
-        height: 78px;
+        padding-top: 62px;
+        height: 88px;
 
         font-family: Arial, sans-serif;
         text-transform: uppercase;
@@ -61,8 +62,8 @@
             color: #0a3d62;
         }
         .navbar-link-cdot {
-            padding-top: 42px;
-            height: 88px;
+            padding-top: 52px;
+            height: 98px;
             padding-left: 7px;
             padding-right: 7px;
 
