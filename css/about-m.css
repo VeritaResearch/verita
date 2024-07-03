@@ -1,3 +1,7 @@
+html, body {
+    -webkit-text-size-adjust: 100%;
+}
+
 body {
     background-color: #fff;
 }
@@ -17,9 +21,9 @@ body {
     
     font-family: Arial, sans-serif;
     font-weight: 300;
-    letter-spacing: 2px;
-    line-height: 40px;
-    font-size: 16px;
+    letter-spacing: 3px;
+    line-height: 60px;
+    font-size: 40px;
 
     color: #2c3e50;
 
@@ -29,9 +33,9 @@ body {
 .email {
     margin-top: 5px;
     font-family: Andale Mono,AndaleMono,monospace; 
-    font-size: 20px;
+    font-size: 40px;
     letter-spacing: -0.5px;
-    line-height: 40px;
+    line-height: 60px;
     
     color: #227093;
 
@@ -50,7 +54,7 @@ body {
 .spacer {
     margin: auto;
     margin-top: 45px;
-    margin-bottom: 20px;
+    margin-bottom: 45px;
 
     width: 100%;
 
@@ -111,7 +115,7 @@ body {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 
-    font-size: 40px !important;
+    font-size: 40px;
 
     text-align: center;
     vertical-align: middle;
