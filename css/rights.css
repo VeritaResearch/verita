@@ -1,0 +1,44 @@
+body {
+    background-color: #fff;
+}
+
+.container {
+    width: 100%;
+}
+
+.main {
+    padding-top:50px;
+
+    width: 460px;
+    margin: auto;
+    text-align: left;
+
+    text-align: justify;
+    
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 24px;
+    /*font-size: 14px;*/
+
+    color: #2c3e50;
+
+    /*border: 1px solid red;*/
+}
+
+    .rights-title {
+        font-size: 18px;
+    }
+
+    .rights-content {
+        font-size: 14px;
+    }
+
+    .rights-content a {
+        text-decoration: underline;
+        color: #227093;
+    }
+
+    .rights-content a:hover{
+        color: #0a3d62;
+    }
