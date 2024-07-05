@@ -104,19 +104,18 @@ body {
 }
 
 #newsletter-form button {
-    flex-grow: 0.05;
 
-    /*width: 15%;*/
+    width: 15%;
+
     color: #2c3e50;
 
     border-left-width: 0;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 
-    font-size: 60px;
+    font-size: 40px;
 
     /* vertical-align: top */
-
     /*padding-top: 25px;*/
     /*padding-bottom: 25px;*/
 

@@ -108,7 +108,9 @@ body {
 }
 
 #newsletter-form button {
+
     width: 15%;
+    
     color: #2c3e50;
     /*color: white;*/
     border-left-width: 0;
