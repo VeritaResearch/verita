@@ -115,9 +115,9 @@ body {
 
     font-size: 40px;
 
-    /* vertical-align: top */
-    /*padding-top: 25px;*/
-    /*padding-bottom: 25px;*/
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
 
 }
     #newsletter-form button:hover {
