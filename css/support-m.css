@@ -111,11 +111,12 @@ body {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 
-    font-size: 40px;
+    background-image: url("img/arrow.png");
+    background-repeat: no-repeat;
+    background-position: 51% 50%;
 
-    text-align: center;
-    vertical-align: middle;
-    line-height: 90px;
+    /* Hide text */
+    font-size: 0px;
 }
     #newsletter-form button:hover {
         cursor: pointer;
