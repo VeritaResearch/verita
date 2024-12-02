@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-    background-color: #fff;
+    background-color: #212121;
 }
 
 .container {
@@ -19,16 +19,20 @@ body {
 
     /*text-align: justify;*/
     
-    font-family: Arial, sans-serif;
-    font-weight: 300;
-    letter-spacing: 3px;
+    font-family: Andale Mono,AndaleMono,monospace; 
+    font-weight: 500;
+    letter-spacing: -0.5px;
     line-height: 60px;
     font-size: 40px;
 
-    color: #2c3e50;
+    color: #f5f6fa;
 
     /*border: 1px solid red;*/
 }
+    .main a {
+        color: #f5f6fa;
+        text-decoration: underline 3px;
+    }
 
 .email {
     margin-top: 5px;
@@ -37,18 +41,18 @@ body {
     letter-spacing: -0.5px;
     line-height: 60px;
     
-    color: #227093;
+    color: #f5f6fa;
 
     display: inline;
 
 }
     .email a {
-        text-decoration: none;
+        text-decoration: underline 3px;
         color: inherit;
         font-size: inherit;
     }
     .email a:hover{
-        color: #0a3d62;
+        /* */
     }
 
 .spacer {
@@ -58,7 +62,7 @@ body {
 
     width: 100%;
 
-    border-bottom: 1px solid #bdc3c7;
+    border-bottom: 1px solid #2F2F2F;
 }
     .spacer-m {
         margin-bottom: 50px;
@@ -81,10 +85,11 @@ body {
 #newsletter-form button {
   border-radius: 10px;
 
-  font-family: Arial, sans-serif;
-  font-weight: 400;
+  font-family: Andale Mono,AndaleMono,monospace; 
+  font-weight: 500;
 
-  border: 3px solid #bdc3c7;
+  background-color: #2F2F2F;
+  border: 1px solid #2F2F2F;
 
   padding: 20px;
 }
@@ -100,29 +105,29 @@ body {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 
-    font-family: Arial, sans-serif;
-    letter-spacing: 0.6px;
+    font-family: Andale Mono,AndaleMono,monospace; 
+    letter-spacing: -0.5px;
     font-weight: 400;
     font-size: 40px;
-    color: #2c3e50;
+    color: #f5f6fa;
 }
 
 #newsletter-form button {
 
     width: 15%;
 
-    color: #2c3e50;
+    color: #f5f6fa;
     /*color: white;*/
     border-left-width: 0;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 
-    background-image: url("img/arrow.png");
+    /*background-image: url("img/arrow.png");*/
     background-repeat: no-repeat;
     background-position: 51% 50%;
 
     /* Hide text */
-    font-size: 0px;
+    font-size: 50px;
 
 }
     #newsletter-form button:hover {

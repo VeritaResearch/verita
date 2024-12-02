@@ -1,5 +1,5 @@
 body {
-    background-color: #fff;
+    background-color: #212121;
 }
 
 .container {
@@ -15,16 +15,20 @@ body {
 
     text-align: justify;
     
-    font-family: Arial, sans-serif;
+    font-family: Andale Mono,AndaleMono,monospace; 
     font-weight: 400;
-    letter-spacing: 1px;
+    letter-spacing: -0.5px;
     line-height: 24px;
-    font-size: 14px;
+    font-size: 15px;
 
-    color: #2c3e50;
+    color: #f5f6fa;
 
     /*border: 1px solid red;*/
 }
+    .main a {
+        color: #f5f6fa;
+        text-decoration: underline 3px;
+    }
 
 .email {
     display: inline-block;
@@ -33,14 +37,14 @@ body {
     font-family: Andale Mono,AndaleMono,monospace; 
     letter-spacing: -0.5px;
     
-    color: #227093;
+    color: #f5f6fa;
 }
     .email a {
-        text-decoration: none;
-        color: inherit;
+        text-decoration: underline 3px;
+        color: #f5f6fa;
     }
     .email a:hover{
-        color: #0a3d62;
+        /*color: #0a3d62;*/
     }
 
 .spacer {
@@ -50,7 +54,7 @@ body {
 
     width: 100%;
 
-    border-bottom: 1px solid #bdc3c7;
+    border-bottom: 1px solid #2F2F2F;
 }
 
 /*  FORM */
@@ -68,12 +72,13 @@ body {
 
 #newsletter-form input,
 #newsletter-form button {
-  border-radius: 5px;
+  border-radius: 10px;
 
   font-family: Arial, sans-serif;
   font-weight: 400;
 
-  border: 1px solid #bdc3c7;
+  background-color: #2F2F2F;
+  border: 1px solid #2F2F2F;
 
   padding: 10px;
 }
@@ -89,17 +94,20 @@ body {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 
-    font-family: Arial, sans-serif;
-    letter-spacing: 0.6px;
+    font-family: Andale Mono,AndaleMono,monospace; 
+    letter-spacing: -0.5px;
     font-weight: 400;
-    font-size: 15px;
-    color: #2c3e50;
+    font-size: 14px;
+    color: #f5f6fa;
 }
 
 #newsletter-form button {
     width: 45px;
-    color: #2c3e50;
+    color: #f5f6fa;
+    font-size: 20px;
     /*color: white;*/
+    background-color: #2F2F2F !important;
+
     border-left-width: 0;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
