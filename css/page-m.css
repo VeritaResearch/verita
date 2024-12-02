@@ -31,7 +31,7 @@ body {
 }
     .main a {
         color: #f5f6fa;
-        text-decoration: underline 3px;
+        text-decoration: underline 9px;
     }
 
 .email {
@@ -47,7 +47,7 @@ body {
 
 }
     .email a {
-        text-decoration: underline 3px;
+        text-decoration: underline 9px;
         color: inherit;
         font-size: inherit;
     }
