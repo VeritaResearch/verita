@@ -1,0 +1,70 @@
+body {
+    background-color: #212121;
+}
+
+.container {
+    width: 100%;
+}
+
+.main {
+    padding-top:50px;
+
+    width: 460px;
+    margin: auto;
+    text-align: left;
+
+    text-align: justify;
+    
+    font-family: Andale Mono,AndaleMono,monospace; 
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    line-height: 24px;
+    font-size: 15px;
+
+    color: #f5f6fa;
+
+    /*border: 1px solid red;*/
+}
+    .main a {
+        color: #f5f6fa;
+        text-decoration: underline 3px;
+    }
+
+.email {
+    display: inline-block;
+
+    font-size: 16px;
+    font-family: Andale Mono,AndaleMono,monospace; 
+    letter-spacing: -0.5px;
+    
+    color: #f5f6fa;
+}
+    .email a {
+        text-decoration: underline 3px;
+        color: #f5f6fa;
+    }
+    .email a:hover{
+        /*color: #0a3d62;*/
+    }
+
+.spacer {
+    padding-top: 30px;
+    margin: auto;
+    margin-bottom: 30px;
+
+    width: 100%;
+
+    border-bottom: 1px solid #2F2F2F;
+}
+    .spacer-m {
+        margin-bottom: 30px;
+    }
+
+/*
+#newsletter-form input::placeholder {
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+
+    font-size: 15px;
+}
+*/
