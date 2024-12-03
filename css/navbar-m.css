@@ -58,7 +58,7 @@
             text-decoration: none;
         }
         .navbar-link a:hover{
-            text-decoration: underline 3px;
+            text-decoration: underline 9px;
         }
         .navbar-link-cdot {
             padding-top: 52px;
