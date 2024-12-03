@@ -24,6 +24,7 @@ body {
     letter-spacing: -0.5px;
     line-height: 60px;
     font-size: 40px;
+    font-variant-numeric: slashed-zero;
 
     color: #f5f6fa;
 
